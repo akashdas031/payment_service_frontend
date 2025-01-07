@@ -28,7 +28,7 @@ const PaymentForm = () => {
 
       // 2. Open Razorpay checkout window with the orderId received from backend
       const options = {
-        key: 'rzp_test_Q7Yvhp5YcsDF7O', // Replace with your Razorpay key
+        key: 'Your razorpay key', // Replace with your Razorpay key
         amount: (amount * 100).toString(), // Amount in paise (e.g., amount = 1000 means 10 INR)
         currency: 'INR',
         name: 'Your App',
